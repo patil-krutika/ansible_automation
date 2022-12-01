@@ -4,6 +4,6 @@
   hosts: localhost
   tasks:
     - name: install webserver
-      yum:
+      dnf:
         name: httpd
         state: latest
